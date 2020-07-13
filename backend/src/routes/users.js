@@ -14,8 +14,6 @@ router.route('/') // el / significa  /api/note viene de app.js
 
 
 router.route('/:id')
-    .get(getUser)
-    .put(updateUsers)
     .delete(deleteUsers)
 
 

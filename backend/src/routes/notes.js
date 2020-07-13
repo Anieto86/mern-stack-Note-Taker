@@ -13,7 +13,7 @@ router.route('/') // el / significa  /api/note viene de app.js
 
 
 
-router.route('/:id')
+router.route('/:id') // importante el id para tomar la nota que quiero video 7 minuto 18
     .get(getNote)
     .put(updateNotes)
     .delete(deleteNotes)
